@@ -11,29 +11,16 @@
         <!-- <link rel="stylesheet" href="./style.css"> -->
     </head>
     <body>
-
-        <header class="appbar header">
-            <div class = "toolbar mobile">
-                <div class="mylogo-mobile mobile">
-                    <a href="">My Logo</a>
-                </div>
-                <nav class="menu-container mobile">
-                    <button class="button-burger mobile" href="">
-                        <div class="burger"></div>
-                        <div class="burger"></div>
-                        <div class="burger"></div>
-                    </button>
-                </nav>
-            </div>
-            <nav class = "toolbar-d desktop">
-                <div class="mylogo-desktop desktop"><a href="">My Logo</a></div>
-                <ul class="desktop navlist">
-                  <li class="desktop">Portfolio</li>
-                  <li class="desktop">About</li>
-                  <li class="desktop">Contact</li>
+        <nav class = "navbar navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="">My Logo</a>
+                <ul class="navbar-nav flex-row gap-3">
+                    <li class="nav-item"><a class="nav-link" href="">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
                 </ul>
-            </nav>
-        </header>
+            </div>
+        </nav>
 
         <section class="myInfo main" id="home">
             <div class="hero-text">
@@ -70,7 +57,7 @@
             <!--First Project-->
             <div class="project-card">
                 <a href="" class="project-img desktop"><img src="./images/desktop/project01.png" /></a>
-                <a href="" class="project-img mobile"><img src="./works/project01.png" /></a>
+                
                 <div class="project-desktop">
                     <h2>Tonic</h2>
                     <div class="project-overhead">
@@ -100,21 +87,16 @@
             
             <!--Second Project-->
             <div class="project-card">
-                <a href="" class="project-img mobile"><img src="./works/project02.png" /></a>
+                
                 <div class="project-desktop">
                     <h2>Multi-Post Stories</h2>
                     <div class="project-overhead">
                         <ul class="overhead">
-                            <li class="overhead-1 mobile">Canopy</li>
                             <li class="overhead-1 desktop">Facebook</li>
-                            <li class="mobile">Back End Dev</li>
                             <li class="desktop">Full Stack Dev</li>
                             <li>2015</li>
                         </ul>
                     </div>
-                    <p class="project-detail mobile">
-                        A daily selection of privately personalized reads; no accounts or sign-ups required.
-                    </p>
                     <p class="project-detail desktop">
                         Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.
                     </p>
@@ -139,23 +121,16 @@
 
              <!--Third Project-->
              <div class="project-card">
-                <a href="" class="project-img mobile"><img src="./works/project03.png" /></a>
                 <a href="" class="project-img desktop"><img src="./images/desktop/project03.png" /></a>
                 <div class="project-desktop">
-                    <h2 class="mobile">Tonic</h2>
                     <h2 class="desktop">Facebook 360</h2>
                     <div class="project-overhead">
                         <ul class="overhead">
-                            <li class="overhead-1 mobile">Canopy</li>
                             <li class="overhead-1 desktop">FACEBOOK</li>
-                            <li class="mobile">Back End Dev</li>
                             <li class="desktop">Full Stack Dev</li>
                             <li>2015</li>
                         </ul>
                     </div>
-                    <p class="project-detail mobile">
-                        A daily selection of privately personalized reads; no accounts or sign-ups required.
-                    </p>
                     <p class="project-detail desktop">
                         Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.
                     </p>
@@ -180,23 +155,15 @@
 
              <!--Fourth Project-->
              <div class="project-card">
-                <a href="" class="project-img mobile"><img src="./works/project04.png" /></a>
                 <div class="project-desktop">
-                    <h2 class="mobile">Multi-Post Stories</h2>
                     <h2 class="desktop">Uber Navigation</h2>
                     <div class="project-overhead">
                         <ul class="overhead new">
-                            <li class="overhead-1 mobile">Canopy</li>
-                            <li class="mobile">Back End Dev</li>
-                            <li class="mobile">2015</li>
                             <li class="overhead-1 desktop">Uber</li>
                             <li class="desktop">Lead Developer</li>
                             <li class="desktop">2018</li>
                         </ul>
                     </div>
-                    <p class="project-detail mobile">
-                        A daily selection of privately personalized reads; no accounts or sign-ups required.
-                    </p>
                     <p class="project-detail desktop">
                         A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.
                     </p>
@@ -261,21 +228,18 @@
                     <ul class="language-skill">
                         <li>
                             <div class="skill">
-                                <img class="mobile" src="./images/javs.png"/> 
                                 <img class="jav-img lang-img desktop" src="./images/Ellipse 1.png"/> 
                                 <p class="name-lang name-js">javaScript</p>
                             </div>
                         </li>
                         <li>
                             <div class="skill">
-                                <img class="mobile" src="./images/htm.png"/>
                                 <img class="desktop" src="./images/htm.png"/>  
                                 <p class="name-lang">HTML</p>
                             </div>
                         </li>
                         <li>
                             <div class="skill">
-                                <img class="mobile" src="./images/design.png"/> 
                                 <img class="desktop" src="./images/design.png"/> 
                                 <p class="name-lang">CSS</p>
                             </div>
@@ -311,7 +275,6 @@
                     <button class="getintouch" type="submit">Get in touch</button>
                 </form>
             </div>
-            <div class="the-end mobile"></div>
             
         </section>
 
