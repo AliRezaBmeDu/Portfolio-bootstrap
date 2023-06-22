@@ -10,53 +10,62 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
     />
-
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header class="appbar header">
-    </header>
+    <nav id="navbar" class = "navbar navbar-light bg-light sticky-top">
+      <div class="container">
+          <a class="navbar-brand" href="#">My Logo</a>
+          <ul class="navbar-nav nav-pills flex-row gap-5">
+              <li class="nav-item"><a class="nav-link nav-pills" href="#home">Portfolio</a></li>
+              <li class="nav-item"><a class="nav-link nav-pills" href="#about">About</a></li>
+              <li class="nav-item"><a class="nav-link nav-pills" href="#contact" data-bs-toggle="#contact" 
+                  role="button" aria-expanded="false">Contact</a></li>
+          </ul>
+      </div>
+    </nav>
 
-    <section class="myInfo main" id="home">
-      <div class="hero-text">
-        <h1 class="hero_title">I'm Reza.<br />Glad to see you!</h1>
-        <p class="hero_desc">
-          I’m a software developer! I can help you build a product , feature or
-          website. Look through some of my work and experience! If you like what
-          you see and have a project you need coded, don’t hesitate to contact
-          me.
-        </p>
-      </div>
-      <div class="contact">
-        <div class="contact-text">Let's Connect</div>
-        <ul class="social-icons">
-          <li class="icon">
-            <a href="https://twitter.com/share_insider"
-              ><img src="./icons/twitter.svg" alt="twitter"
-            /></a>
-          </li>
-          <li class="icon">
-            <a href="https://www.linkedin.com/in/mohammad-ali-reza-389717102/"
-              ><img src="./icons/Linkedin icon.svg" alt="linkedin"
-            /></a>
-          </li>
-          <li class="icon">
-            <a href="https://medium.com/@ali.reza.buet"
-              ><img src="./icons/medium.svg" alt="medium"
-            /></a>
-          </li>
-          <li class="icon">
-            <a href="https://github.com/AliRezaBmeDu"
-              ><img src="./icons/github.svg" alt="github"
-            /></a>
-          </li>
-          <li class="icon">
-            <a href="https://wellfound.com/u/mohammad-ali-reza"
-              ><img src="./icons/angellist.svg" alt="angellist"
-            /></a>
-          </li>
-        </ul>
-      </div>
+    <section class="myInfo main" id="home" h-100 mb-5
+    style="
+    margin: auto;
+    background-image: url('./images/desktop/headerImg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    ">
+    <div class=" container d-flex flex-column justify-content-center align-items-center mt-5 h-100 p-5">
+        <div class="row-cols-1 align-items-center">
+            <div class="hero-text">
+                <h1 class="hero_title">I'm Ali Reza.<br>Glad to see you!</h1>
+                <p class="hero_desc">
+                    I’m a software developer! I can help you build a product, feature, or website. Look through 
+                    some of my work and experience! If you like what you see and have a project you need coded, 
+                    don’t hesitate to contact me.
+                </p>
+            </div>
+        </div>
+        <div class="row-cols-2 align-self-baseline">
+            <div class="contact d-inline">
+                <div class="contact-text">Let's Connect</div>
+                <ul class="list-unstyled d-flex gap-3">
+                    <li class="d-inline">
+                        <a href="https://twitter.com/share_insider"><img src="./icons/twitter.svg" alt="twitter"></a>
+                    </li>
+                    <li class="d-inline">
+                        <a href="https://www.linkedin.com/in/mohammad-ali-reza-389717102/"><img src="./icons/Linkedin icon.svg" alt="linkedin"></a>
+                    </li>
+                    <li class="d-inline">
+                        <a href="https://medium.com/@ali.reza.buet"><img src="./icons/medium.svg" alt="medium"></a>
+                    </li>
+                    <li class="d-inline">
+                        <a href="https://github.com/AliRezaBmeDu"><img src="./icons/github.svg" alt="github"></a>
+                    </li>
+                    <li class="d-inline">
+                        <a href="https://wellfound.com/u/mohammad-ali-reza"><img src="./icons/angellist.svg" alt="angellist"></a>
+                    </li>
+                </ul> 
+            </div>
+        </div>
+    </div>
     </section>
 
     
@@ -234,139 +243,101 @@
       </div>
     </section>
 
-    <section class="myself">
-      <div class="about">
-        <h2 class="about-title">About Myself</h2>
-        <p class="about-myself">
-          Hello I’m a software developer! I can help you build a product ,
-          feature or website. Look through some of my work and experience! If
-          you like what you see and have a project you need coded, don’t
-          hesitate to contact me.
-        </p>
-        <div class="letsconnect">
-          <div class="contact-text">Let's Connect</div>
-          <ul class="media-icons footside">
-            <li class="icon">
-              <a href="https://twitter.com/share_insider"
-                ><img src="./icons/twitter.svg" alt="twitter"
-              /></a>
-            </li>
-            <li class="icon">
-              <a href="https://www.linkedin.com/in/mohammad-ali-reza-389717102/"
-                ><img src="./icons/Linkedin icon.svg" alt="linkedin"
-              /></a>
-            </li>
-            <li class="icon">
-              <a href="https://medium.com/@ali.reza.buet"
-                ><img src="./icons/medium.svg" alt="medium"
-              /></a>
-            </li>
-            <li class="icon">
-              <a href="https://github.com/AliRezaBmeDu"
-                ><img src="./icons/github.svg" alt="github"
-              /></a>
-            </li>
-            <li class="icon">
-              <a href="https://wellfound.com/u/mohammad-ali-reza"
-                ><img src="./icons/angellist.svg" alt="angellist"
-              /></a>
-            </li>
-          </ul>
-          <button class="resume-button">Get my resume</button>
-        </div>
-      </div>
-      <div class="myself-lang-desktop">
-        <div class="languages">
-          <div class="languagebar">
-            <h2>Languages</h2>
-            <button class="lang-button">
-              <img src="./icons/Icon - Chevron - Down - Larger.png" />
-            </button>
+    <section id="about" class="myself container d-flex flex-row justify-content-between gap-2 vw-100 vh-100">
+      <div class="col-1 w-50">
+          <div class="about container d-flex flex-column justify-content-center align-items-center mt-5">
+              <h2 class="about-title align-self-baseline">About Myself</h2>
+              <p class="about-myself">
+                  Hello I’m a software developer! I can help you build a product , feature or website. Look through 
+                  some of my work and experience! If you like what you see and have a project you need coded, 
+                  don’t hesitate to contact me. 
+              </p>
+              <div class="letsconnect align-self-baseline">
+                  <div class="contact-text">Let's Connect</div>
+                  <ul class="list-unstyled d-flex gap-3">
+                      <li class="icon">
+                          <a href="https://twitter.com/share_insider"><img src="./icons/twitter.svg" alt="twitter" /></a>
+                      </li>
+                      <li class="icon">
+                          <a href="https://www.linkedin.com/in/mohammad-ali-reza-389717102/"><img src="./icons/Linkedin icon.svg"  alt="linkedin"/></a>
+                      </li>
+                      <li class="icon">
+                          <a href="https://medium.com/@ali.reza.buet" ><img src="./icons/medium.svg" alt="medium"/></a>
+                      </li>
+                      <li class="icon">
+                          <a href="https://github.com/AliRezaBmeDu"><img src="./icons/github.svg"  alt="github"/></a>
+                      </li>
+                      <li class="icon">
+                          <a href="https://wellfound.com/u/mohammad-ali-reza" ><img src="./icons/angellist.svg" alt="angellist"/></a>
+                      </li>
+                  </ul>
+                  <button class="resume-button btn btn-primary">Get my resume</button>
+              </div>
+                  
           </div>
-          <ul class="language-skill">
-            <li>
-              <div class="skill">
-                <img class="mobile" src="./images/javs.png" />
-                <img
-                  class="jav-img lang-img desktop"
-                  src="./images/Ellipse 1.png"
-                />
-                <p class="name-lang name-js">javaScript</p>
+      </div>
+
+      <div class="col-2 w-50 mt-5">
+          <div class="myself-lang-desktop">
+              <div class="languages mt-3">
+                  
+                   <div class="languagebar d-flex justify-content-between">
+                      <h2>Languages</h2>
+                      <button class="lang-button border-0"><img src="./icons/Icon - Chevron - Down - Larger.png" /></button>
+                  </div> 
+                                   
+                  <ul class="language-skill d-flex list-unstyled gap-lg-5 p-1">
+                      <li><span class="badge square-pill bg-info-subtle text-dark">
+                          <div class="skill d-flex flex-column align-items-center">
+                              <img class="jav-img lang-img desktop" src="./images/Ellipse 1.png"/> 
+                              <p class="name-lang name-js align-content-center">javaScript</p>
+                          </div></span>
+                      </li>
+                      <li><span class="badge square-pill bg-info-subtle text-dark">
+                          <div class="skill d-flex flex-column align-items-center">
+                              <img class="desktop" src="./images/Ellipse 1-1.png"/>  
+                              <p class="name-lang">HTML</p>
+                          </div></span>
+                      </li>
+                      <li><span class="badge square-pill bg-info-subtle text-dark">
+                          <div class="skill d-flex flex-column align-items-center">
+                              <img class="desktop" src="./images/Ellipse 1-2.png"/> 
+                              <p class="name-lang">CSS</p>
+                          </div></span>
+                      </li>
+                  </ul>
               </div>
-            </li>
-            <li>
-              <div class="skill">
-                <img class="mobile" src="./images/htm.png" />
-                <img class="desktop" src="./images/htm.png" />
-                <p class="name-lang">HTML</p>
+              <div class="frameworks d-flex justify-content-between mb-4">
+                  <h2>Frameworks</h2>
+                  <button class="right border-0""><img src="./icons/Icon - Chevron - Right - Larger.png" /></button>
               </div>
-            </li>
-            <li>
-              <div class="skill">
-                <img class="mobile" src="./images/design.png" />
-                <img class="desktop" src="./images/design.png" />
-                <p class="name-lang">CSS</p>
+              <div class="hr"></div>
+              <div class="frameworks d-flex justify-content-between">
+                  <h2>Skills</h2>
+                  <button class="right second-right border-0"><img src="./icons/Icon - Chevron - Right - Larger.png" /></button>
               </div>
-            </li>
-          </ul>
-        </div>
-        <div class="frameworks">
-          <h2>Frameworks</h2>
-          <button class="right">
-            <img src="./icons/Icon - Chevron - Right - Larger.png" />
-          </button>
-        </div>
-        <div class="hr"></div>
-        <div class="frameworks second">
-          <h2>Skills</h2>
-          <button class="right second-right">
-            <img src="./icons/Icon - Chevron - Right - Larger.png" />
-          </button>
-        </div>
-        <div class="hr second2"></div>
+              <div class="hr second2"></div>
+          </div>
       </div>
     </section>
 
-    <section class="contact-me">
-      <div class="contact-me-here">
-        <h1 class="contact-title">Contact me</h1>
-        <p class="contact-me-text">
-          If you have an application you are interested in developing, a feature
-          that you need built or a project that needs coding. I’d love to help
-          with it!
-        </p>
-
-        <form
-          class="contact-form"
-          action="https://formspree.io/f/xwkjgpya"
-          method="POST"
-        >
-          <input
-            class="input-box"
-            type="text"
-            placeholder="Your Name"
-            maxlength="30"
-            name="name"
-            required
-          />
-          <input
-            class="input-box"
-            type="email"
-            placeholder="Your E-mail"
-            name="email"
-            required
-          />
-          <textarea
-            class="message-box"
-            maxlength="500"
-            name="message"
-            placeholder="Write your message here..."
-            required
-          ></textarea>
-          <button class="getintouch" type="submit">Get in touch</button>
-        </form>
-      </div>
-      <div class="the-end mobile"></div>
+    <section id="contact" class="contact-me vh-100">
+      <div class="contact-me-here container d-flex flex-column justify-content-center align-items-center">
+          <h1 class="contact-title">Contact me</h1>
+          <p class="contact-me-text w-75 justify-content-center align-self-center">
+              If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
+              I’d love to help with it!
+          </p>
+      
+          <form class="contact-form d-flex flex-column gap-3 w-50" 
+            action="https://formspree.io/f/xwkjgpya" method="POST">
+                <input class="input-box p-2" type="text" placeholder="Your Name" maxlength="30" name="name" required/>
+                <input class="input-box p-2" type="email" placeholder="Your E-mail" name="email" required/>
+                <textarea class="message-box p-2" maxlength="500" name="message" placeholder="Write your message here..." required></textarea>
+                <button class="btn btn-primary getintouch w-25 align-self-center p-2" type="submit">Get in touch</button>
+            </form>
+        </div>
+        
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
