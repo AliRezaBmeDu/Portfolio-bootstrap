@@ -108,6 +108,12 @@ This is the [live demo link](https://alirezabmedu.github.io/Portfolio-Website/) 
 - GitHub: [@githubhandle](https://github.com/AliRezaBmeDu)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohammad-ali-reza-389717102/)
 
+👤 **Titus Kiplagat**
+
+- GitHub: [@githubhandle](https://github.com/Titus-Kiplagat)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/titus-kiplagat-kemboi-9a8848262/)
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
