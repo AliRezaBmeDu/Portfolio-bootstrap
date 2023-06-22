@@ -38,14 +38,14 @@
 .list-group-item {
   color: var(--theme-1-neutrals-6, #6b778c);
   font-size: 18px;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   line-height: 24px;
 }
 
 .list-group-item:first-child {
   color: var(--theme-1-neutrals-3, #344563);
   font-size: 18px;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   line-height: 24px;
 }
@@ -59,7 +59,7 @@
 .card-title {
   color: var(--theme-1-neutrals-1, #091e42);
   font-size: 40px;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-weight: 700;
   line-height: 52px;
 }
@@ -67,3 +67,5 @@
 .gap-8 {
   gap: 8.875rem;
 }
+
+
