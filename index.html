@@ -12,12 +12,12 @@
     />
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#navbar-example">
     <nav id="navbar" class = "navbar navbar-light bg-light sticky-top">
       <div class="container">
           <a class="navbar-brand" href="#">My Logo</a>
           <ul class="navbar-nav nav-pills flex-row gap-5">
-              <li class="nav-item"><a class="nav-link nav-pills" href="#home">Portfolio</a></li>
+              <li class="nav-item"><a class="nav-link nav-pills" href="#portfolio">Portfolio</a></li>
               <li class="nav-item"><a class="nav-link nav-pills" href="#about">About</a></li>
               <li class="nav-item"><a class="nav-link nav-pills" href="#contact" data-bs-toggle="#contact" 
                   role="button" aria-expanded="false">Contact</a></li>
@@ -69,7 +69,7 @@
     </section>
 
     
-    <section class="projects container d-flex flex-column align-items-center gap-8">
+    <section id="portfolio" class="projects container d-flex flex-column align-items-center gap-8">
       <!--First Project-->
       <div style="max-width: 72.25rem" class="card rounded-4 p-4">
         <div class="d-flex flex-row">
